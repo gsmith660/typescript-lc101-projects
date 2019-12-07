@@ -14,9 +14,6 @@ function getDaysToLocation(kilometersAway: number): number {
     return hours / 24;
 }
 
-
-
-
 // Call the function and print the outputs for the Mars trip and the moon trip:
-console.log(`${spacecraftName} would take ${getDaysToLocation(kilometersToMars)} days to get to Mars.`)
-console.log(`${spacecraftName} would take ${getDaysToLocation(kilometersToTheMoon)} days to get to the Moon.`)
+console.log(`${spacecraftName} would take ${getDaysToLocation(kilometersToMars)} days to get to Mars.`);
+console.log(`${spacecraftName} would take ${getDaysToLocation(kilometersToTheMoon)} days to get to the Moon.`);

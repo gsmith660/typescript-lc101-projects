@@ -14,5 +14,4 @@ let hoursToMars: number = milesToMars / speedMph;
 let daysToMars: number = hoursToMars / 24;
 
 // Code the output statement here (use a template literal):
-
-console.log(`${spacecraftName} would take ${daysToMars} days to get to Mars.`)
+console.log(`${spacecraftName} would take ${daysToMars} days to get to Mars.`);
