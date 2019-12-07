@@ -13,8 +13,8 @@ export class Rocket {
         this.totalCapacityKg = totalCapacityKg;
     }
 
-    sumMass( items: Payload[] ): number {
-        let sum = 0;
+    sumMass(items: Payload[]): number {
+        let sum: number = 0;
         for (let item of items) {
             sum += item.massKg;
         }
